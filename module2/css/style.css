@@ -1,23 +1,28 @@
 *{
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0 3%;
 }
 body{
     background-color: palegoldenrod;
+    align-self: center;
+    
 }
 h1{
     text-align: center;
+    
     
 }
 .menu{
     background-color:red;
     width: 100%;
+    
 }
 .item{
     border: 3px solid black;
     background-color:grey;
     margin: 40px;
+    
     
   }
   .name{
@@ -30,12 +35,16 @@ h1{
       border: 3px solid black;
       position: relative;
       float: right;
+      
   }
 
   @media (min-width:992px){
       .item{
           float: left;
+          
+          position: relative;
           width: 25%;
+          
       }
   }
 
